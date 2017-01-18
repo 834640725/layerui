@@ -2,8 +2,8 @@
 a mvc ui base on go andlabs ui
 
 #Installation
-go get github.com/andlabs/ui
-go get github.com/jmesyan/layerui
+- go get github.com/andlabs/ui
+- go get github.com/jmesyan/layerui
 
 #Documentation
 the ui is based on andlabs ui,you can easy use the ui by layerui,I have write a demo in the uidemo.
@@ -67,7 +67,7 @@ func tab1Ctr(tab1 *layerui.LayContainer){
 ```
 - the finally effect like this:
 
-![uidemo](./uidemo.png)
+   ![uidemo](./uidemo.png)
 
 - **I think layerui can makes you more simple create a ui and control ui,enjoy it,welcome join me to improve the layerui!**
 
