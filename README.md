@@ -13,7 +13,7 @@ how to use andlabs ui,see here(https://github.com/andlabs/ui)
 
 how to use layerui,base on the uidemo,I will give a brief description
 
-In the directory named "view",you can organize your ui,just like this:
+- In the directory named "view",you can organize your ui,just like this:
 ```
 func hbox1()*layerui.LayContainer{
 	box:=new(layerui.LayContainer)
@@ -29,14 +29,14 @@ func hbox1()*layerui.LayContainer{
 }
 ```
 
-In the directory named "model",you can set model value,just like this:
+- In the directory named "model",you can set model value,just like this:
 ```
 func GetDefaultCount()string{
 	return "888"
 }
 ```
 
-In the directory named "control",you can get the model value and control ui,just like this:
+- In the directory named "control",you can get the model value and control ui,just like this:
 
 ```
 func tab1Ctr(tab1 *layerui.LayContainer){
@@ -65,8 +65,10 @@ func tab1Ctr(tab1 *layerui.LayContainer){
 
 }
 ```
-the finally effect like this:
+- the finally effect like this:
+
 ![uidemo](./uidemo.png)
-**I think layerui can makes you more simple create a ui and control ui,enjoy it,welcome join me to improve the layerui!**
+
+- **I think layerui can makes you more simple create a ui and control ui,enjoy it,welcome join me to improve the layerui!**
 
 
