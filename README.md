@@ -69,6 +69,6 @@ func tab1Ctr(tab1 *layerui.LayContainer){
 
    ![uidemo](./uidemo.png)
 
-- **I think layerui can makes you more simple create a ui and control ui,enjoy it,welcome join me to improve the layerui!**
+**I think layerui can makes you more simple create a ui and control ui,enjoy it,welcome join me to improve the layerui!**
 
 
