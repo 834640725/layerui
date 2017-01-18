@@ -2,6 +2,7 @@
 a mvc ui base on go andlabs ui
 
 #Installation
+go get github.com/andlabs/ui
 go get github.com/jmesyan/layerui
 
 #Documentation

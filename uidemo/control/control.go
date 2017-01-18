@@ -18,7 +18,7 @@ func UiCtr(){
 		tab2:=MainTab.Widget("tab2").(*layerui.LayContainer)
 		tab2Ctr(tab2)
 		//finally run the main window
-		var Window = ui.NewWindow("window_title", 1000, 800, false)
+		var Window = ui.NewWindow("window_title", 600, 400, false)
 		Window.SetChild(MainTab.Tab)
 		Window.OnClosing(func(*ui.Window) bool {
 			ui.Quit()
